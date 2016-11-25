@@ -1,1 +1,1 @@
-webdriver-manager start
+node webdriver-manager start
