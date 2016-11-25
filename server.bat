@@ -1,1 +1,1 @@
-node webdriver-manager start
+node modules/.bin/ webdriver-manager start
