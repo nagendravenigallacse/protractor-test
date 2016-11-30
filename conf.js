@@ -7,7 +7,9 @@ exports.config = {
     baseUrl: '	http://183.82.2.170:4444/wd/hub',
     specs: ['todo-spec.js'],
     
-    
+    onPrepare: function(){
+browser.driver.manage().window().maximize();
+    },
     
     onPrepare: function() {
         jasmine.getEnv().addReporter(
