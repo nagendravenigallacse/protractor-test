@@ -4,7 +4,7 @@
 var Jasmine2HtmlReporter = require('protractor-jasmine2-html-reporter');
 exports.config = {
 
-    seleniumAddress: '	http://183.82.2.170:4444/wd/hub',
+    baseUrl: '	http://183.82.2.170:4444/wd/hub',
     specs: ['todo-spec.js'],
     
     
